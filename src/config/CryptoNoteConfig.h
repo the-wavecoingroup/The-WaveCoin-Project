@@ -220,8 +220,8 @@ const std::unordered_map<
     { BLOCK_MAJOR_VERSION_2, Crypto::cn_slow_hash_v0 },             /* UPGRADE_HEIGHT_V2 */
     { BLOCK_MAJOR_VERSION_3, Crypto::cn_slow_hash_v0 },             /* UPGRADE_HEIGHT_V3 */
     { BLOCK_MAJOR_VERSION_4, Crypto::cn_lite_slow_hash_v1 },        /* UPGRADE_HEIGHT_V4 */
-    { BLOCK_MAJOR_VERSION_5, Crypto::cn_turtle_lite_slow_hash_v2 }  /* UPGRADE_HEIGHT_V5 */
-    { BLOCK_MAJOR_VERSION_5, Crypto::chukwa_slow_hash }             /* UPGRADE_HEIGHT_V5 */
+    { BLOCK_MAJOR_VERSION_5, Crypto::cn_turtle_lite_slow_hash_v2 }, /* UPGRADE_HEIGHT_V5 */
+    { BLOCK_MAJOR_VERSION_6, Crypto::chukwa_slow_hash }             /* UPGRADE_HEIGHT_V5 */
 };
 
 const size_t   BLOCKS_IDS_SYNCHRONIZING_DEFAULT_COUNT        =  10000;  //by default, blocks ids count in synchronizing
