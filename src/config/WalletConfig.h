@@ -10,10 +10,10 @@
 namespace WalletConfig
 {
     /* The prefix your coins address starts with */
-    const std::string_view addressPrefix = "TRTL";
+    const std::string_view addressPrefix = "WaV";
 
     /* Your coins 'Ticker', e.g. Monero = XMR, Bitcoin = BTC */
-    const std::string ticker = "TRTL";
+    const std::string ticker = "WVX";
 
     /* The filename to output the CSV to in save_csv */
     const std::string csvFilename = "transactions.csv";
@@ -23,20 +23,20 @@ namespace WalletConfig
     const std::string addressBookFilename = ".addressBook.json";
 
     /* The name of your deamon */
-    const std::string daemonName = "TurtleCoind";
+    const std::string daemonName = "WaveCoind";
 
     /* The name to call this wallet */
     const std::string walletName = "zedwallet";
 
     /* The name of service/walletd, the programmatic rpc interface to a
        wallet */
-    const std::string walletdName = "turtle-service";
+    const std::string walletdName = "wave-service";
 
     /* The full name of your crypto */
     const std::string coinName = std::string(CryptoNote::CRYPTONOTE_NAME);
 
     /* Where can your users contact you for support? E.g. discord */
-    const std::string contactLink = "http://chat.turtlecoin.lol";
+    const std::string contactLink = "wavecoingroup@gmail.com";
 
 
     /* The number of decimals your coin has */
@@ -65,7 +65,7 @@ namespace WalletConfig
     const uint64_t minimumSend = 1;
 
     /* Is a mixin of zero disabled on your network? */
-    const bool mixinZeroDisabled = true;
+    const bool mixinZeroDisabled = false;
 
     /* If a mixin of zero is disabled, at what height was it disabled? E.g.
        fork height, or 0, if never allowed. This is ignored if a mixin of
